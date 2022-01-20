@@ -1,0 +1,189 @@
+body{
+  overflow-x: hidden;
+}
+
+/* navbar */
+
+
+#containerfluid1{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+  width: 100%;
+  padding: 1% 2%;
+}
+#navlink1{
+    padding: 6px 30px 0px 10px;
+    color: black;
+}
+
+/* content */
+
+#maincontent{
+    padding:  10%;
+}
+.firstline{
+    letter-spacing: 2px;
+    padding: 10px -10px;
+    text-align: left;
+}
+.secondline{
+    letter-spacing: 10px;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: left;
+    
+}
+.thirdline{
+    padding: 10px -10px;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    
+}
+#watermarkimg{
+    position: absolute;
+    font-family: "JetBrains Mono","Fira Code",monospace;
+    opacity: .1;
+    z-index: -10;
+    bottom: 90%;
+    left: 106%;
+    font-size: 25rem;
+    display: inline-block;
+    -webkit-transform: rotate(
+      90deg) translate(100%,100%);
+    transform: rotate(
+    90deg) translate(100%,100%);
+}
+
+
+/* content */
+
+.content{
+    background-color: #E8E8E9;
+    margin-top: 110px;
+}
+
+.ajayimg{
+    width: 60%;
+    margin: 10% 20%;
+}
+#about{
+    margin: 130px 0px 20px -70px;
+    padding: 0 80px;
+
+}
+.about1{
+    padding:10px 0px;
+}
+
+
+/*educationrow */
+.education{
+    padding: 3%;
+    background-color: #E8E8E9;
+}
+#educationrow1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+   padding-left: 110px;
+}
+#educationrow2{
+    padding-bottom: 40px;
+   padding-left: 110px;
+   padding-right: 100px;
+   text-align: left;
+}
+#educationrow{
+    padding-left: 165px;
+    padding-right: 30px;
+    margin-left: -70px;
+}
+.carousel-item img {
+    height: 400px
+}
+
+/* footer */
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-bottom: 1px solid #ffff;
+  }
+  
+  input[type=submit]:hover {
+    border-bottom: 1px solid #ffff;
+    border-top: 1px solid #ffff;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-image: linear-gradient(white white) ;
+    padding: 30px 10px ;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+/* social icon */
+
+#footer{
+    text-align: center;
+    padding: 100px;
+}
+.social-icon{
+  margin-left: 30px;
+  margin-bottom: 30px;
+
+}
+.social-row{
+    text-align: center;
+    padding: 50px;
+    background-color:#E8E8E9;
+}
+.footerpara{
+    text-align: center;
+    margin-left: 30px;
+}
+.footerhead{
+    letter-spacing: 5px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
